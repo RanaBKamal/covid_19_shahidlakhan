@@ -1,0 +1,180 @@
+.logo-wrapper{
+	width: 100%;
+}
+.logo-wrapper .logo_nishan{
+	width: 70%;
+	//margin: 0 auto;
+	display: block;
+	float: left;
+}
+.header-wrapper{
+	width: 100%;
+	height: auto;
+	color:#ffffff;
+	background-color: #2A7DBE;
+	border-color: #1b416a;
+	padding: 15px 0;
+	text-align: center;
+}
+.header-wrapper h1{
+	font-weight: bold;
+}
+.header-wrapper h4{
+	margin-bottom: 0;
+}
+.header-wrapper h5{
+	margin-bottom: 0;
+}
+.side-heading-wrapper{
+	width: 100%;
+	height: auto;
+	color:#ffffff;
+	background-color: #2A7DBE;
+	border-color: #1b416a;
+	padding: 15px 0 0 0;		
+}
+.side-heading-wrapper>span{
+	font-weight: bold;
+	color: yellow;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.body-wrapper{
+	width: 100%;
+	height: auto;
+	background-color: #ECF0F5;
+}
+.body-wrapper .page-content{
+	background-color: #fcfcfc;
+	border-color: #E3E7EC;
+	min-height: 200px;
+	margin: 15px 0;
+	padding: 15px 0;
+	border-radius: 5px;
+}
+.body-wrapper .side-content{
+	background-color: #fcfcfc;
+	border-color: #E3E7EC;
+	min-height: 200px;
+	margin: 15px 0;
+	border-radius: 5px;
+}
+.body-wrapper .side-content>.side-widget{
+	padding: 8px;
+}
+.body-wrapper .side-content>.side-widget .info-text{
+	font-size: 1.2em;
+	font-weight: 500;
+	padding: 0 10px;
+}
+.body-wrapper nav ul li{
+	border-right: 2px solid lightgrey;
+}
+.body-wrapper nav ul li a{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+.link-wrapper{
+	width: 100%;
+	height: auto;
+	position: relative;
+	min-height: 200px;
+}
+.link-wrapper .important-link-item{
+	font-size: 18px;
+	font-weight: bold;
+}
+.link-wrapper .important-link-item>.link-icon{
+	color: #dc3545;
+}
+.donate-button{
+	font-weight: bold;
+}
+.grecaptcha-badge{
+	z-index: 9999;
+}
+
+.login-wrapper{
+	width: 100%;
+	height: auto;
+	display: block;
+	border:1px solid #ffffff;
+	border-radius:4px;
+}
+.login-wrapper>ul.login-container{
+	margin-bottom: 0px;
+	padding-left:0;
+}
+.login-wrapper>ul.login-container>li{
+	list-style-type: none;
+}
+.login-wrapper>ul.login-container>li>span{
+	display: inline-block;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+}
+.login-wrapper>ul.login-container>li>span>a{
+	color:white;
+	font-weight: bold;
+}
+.login-wrapper>ul.login-container>li>span>a:hover{
+	color: red;
+}
+.verified-content-wrapper{
+	widows: 100%;
+	height: auto;
+}
+
+.corona-update-wrapper{
+	width: 100%;
+	height: auto;
+	padding: 15px 10px;
+}
+
+.footer-wrapper{
+	width: 100%;
+	height: auto;
+	background-color: #BE020A; 
+	padding: 10px 0;
+}
+.footer-wrapper .copyright{
+	color: #ffffff;
+	text-align: center;
+	display: block;
+}
+.footer-wrapper .copyright>a{
+	color: #ffffff;
+}
+
+
+@media screen and (max-width: 540px) {
+  .logo-wrapper .logo_nishan{
+  	width: 70%;
+  	float: none;
+  	margin: 0 auto;
+  }
+  .heading-wrapper{
+		text-align: center;
+	}
+	.donate-button{
+		display: block;
+		text-align:center;
+	}
+}
+
+@media screen and (max-width: 766px) {
+  .logo-wrapper .logo_nishan{
+  	width: 20%;
+  	float: none;
+  	margin: 0 auto;
+  }
+  .heading-wrapper{
+		text-align: center;
+	}
+	.donate-button{
+		display: block;
+		text-align:center;
+	}
+}

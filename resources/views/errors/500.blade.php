@@ -1,0 +1,1 @@
+<h2 style="text-align: center;color: red;">Something wrong, 500 error</h2>
